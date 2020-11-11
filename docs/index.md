@@ -1,9 +1,10 @@
-#User Guide
+##User Guide
 Java Version: 11
 Gradle version: 7.0
 
-Programming Language used: Java
-Testing libraries used: JUnit was used for testing in this project.
+Programming Language used: Java <br>
+
+Testing libraries used: JUnit was used for testing in this project. <br>
 
 To run the code:
 1. Git clone the project.
