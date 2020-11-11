@@ -61,7 +61,7 @@ public class Wadrobe {
                     this.combiString += size + "cm: " + count + " piece(s)\n";
                 } else {
                     System.out.print(size + "cm: " + count + " piece(s), ");
-                    this.combiString += size + "cm: " + count + " piece(s)";
+                    this.combiString += size + "cm: " + count + " piece(s), ";
                 }
             }
         }

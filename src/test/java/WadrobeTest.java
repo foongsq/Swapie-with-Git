@@ -9,7 +9,7 @@ public class WadrobeTest {
                 "50cm: 3 piece(s), 75cm: 0 piece(s), 100cm: 1 piece(s), 120cm: 0 piece(s)\n" +
                 "50cm: 2 piece(s), 75cm: 2 piece(s), 100cm: 0 piece(s), 120cm: 0 piece(s)\n" +
                 "50cm: 1 piece(s), 75cm: 0 piece(s), 100cm: 2 piece(s), 120cm: 0 piece(s)\n" +
-                "50cm: 0 piece(s), 75cm: 2 piece(s), 100cm: 1 piece(s), 120cm: 0 piece(s)";
+                "50cm: 0 piece(s), 75cm: 2 piece(s), 100cm: 1 piece(s), 120cm: 0 piece(s)\n";
 
         int[] wadrobeElemsSize = { 50, 75, 100, 120 };
         Wadrobe wadrobe = new Wadrobe(wadrobeElemsSize);
