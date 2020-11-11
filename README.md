@@ -1,6 +1,8 @@
-##User Guide
-Java Version: 11
-Gradle version: 7.0
+User Guide <br>
+
+Java Version: 11 <br>
+
+Gradle version: 7.0 <br>
 
 Programming Language used: Java <br>
 
