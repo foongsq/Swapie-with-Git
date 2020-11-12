@@ -18,4 +18,32 @@ public class WadrobeTest {
 
         Assert.assertEquals(expectedResult, wadrobe.toString());
     }
+
+    @Test
+    public void queryCombinations_zeroInput() {
+        String expectedResult = "These are all possible combinations of wadrobe elements " +
+                "that fit the wall of size 0cm:\n" +
+                "50cm: 0 piece(s), 75cm: 0 piece(s), 100cm: 0 piece(s), 120cm: 0 piece(s)\n";
+
+        int[] wadrobeElemsSize = { 50, 75, 100, 120 };
+        Wadrobe wadrobe = new Wadrobe(wadrobeElemsSize);
+
+        wadrobe.queryCombinations(0);
+
+        Assert.assertEquals(expectedResult, wadrobe.toString());
+    }
+
+    @Test
+    public void queryCombinations_failure() {
+        String expectedResult = "These are all possible combinations of wadrobe elements " +
+                "that fit the wall of size 0cm:\n" +
+                "50cm: 0 piece(s), 75cm: 0 piece(s), 100cm: 0 piece(s), 120cm: 0 piece(s)\n";
+
+        int[] wadrobeElemsSize = { 0 };
+        Wadrobe wadrobe = new Wadrobe(wadrobeElemsSize);
+
+        wadrobe.queryCombinations(20);
+
+        Assert.assertEquals(expectedResult, wadrobe.toString());
+    }
 }
